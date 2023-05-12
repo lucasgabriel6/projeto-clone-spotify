@@ -48,7 +48,7 @@ header{
 #div-principal-header > img{
     display: flex;
     max-height: 4vw;
-    padding-right: 50px;
+    padding-right: 8px;
 }
 
 #itens-nav > a{
