@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	--default-green: #1db954;
+	--light-green: #1ed760;
+}
+
+body{
+    background: black url(../imagens/showcase.webp) center center no-repeat fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.556);
+    background-blend-mode: color;
+}
+
+header{
+    display: flex;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	justify-content: center;
+	top: 0;
+	width: 100%;
+    height: 25vh;
+}
+
+#div-principal-header{
+    width: 60%;
+	align-items: center;
+	padding: 20px 0;
+}
+
+#div-principal-header{
+    display: flex;
+	list-style: none;
+	font-weight: bold;
+    justify-content: space-around;
+}
+
+#div-principal-header a{
+    padding: 0 20px;
+	transition: all 300ms ease;
+}
+
+#div-principal-header > img{
+    display: flex;
+    max-height: 4vw;
+    padding-right: 20px;
+}
+
+#itens-nav > a{
+    color: white;
+    font-size: 1.3em;
+}
+
+#itens-nav > a:hover{
+    color: green;
+}
+
+main{
+    position: relative;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 44vh;
+    padding-bottom: 44vh;
+}
+
+.container-main{
+    text-align: center;
+    height: 20vh;
+    width: 40vw;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.container-main > h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.container-main > p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.botao{
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--light-green);
+}
+
+button:active{
+    box-shadow: inset -1px 1px 0 green;
+}
+
+.botao:hover{
+    background-color: var(--default-green);
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 44vh;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+#div-principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+#div-principal > img{
+    max-height: 4vw;
+}
+
+#div-principal > #img2{
+    padding-top: 20px;
+}
+
+.p-footer{
+    color: white;
+}
+
+.footer-itens a{
+	transition: all 300ms ease;
+}
+
+.footer-itens > a{
+    color: white;
+}
+
+.footer-itens a{
+    padding-bottom: 50px;
+}
+.footer-itens > p{
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-itens a:hover{
+    color: green;
+}
